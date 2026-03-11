@@ -121,7 +121,7 @@ public class Server {
             out.flush();
             return;
         }
-        
+
         final var length = Files.size(filePath);
         System.out.println("Пишу заголовки");
         out.write(("HTTP/1.1 200 OK\r\n" +
