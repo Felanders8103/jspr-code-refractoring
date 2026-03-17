@@ -17,4 +17,5 @@ public class Main {
     // по умолчанию создаётся лишь один объект на BeanDefinition
     final var isSame = service == context.getBean("postService");
   }
+
 }
